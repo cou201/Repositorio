@@ -1,7 +1,21 @@
 import {Button, makeStyles, Paper, Radio, TextField, Typography} from '@material-ui/core'
 import React, {useState} from 'react'
+import emailjs from 'emailjs-com'
+
 
 const Contact = ({title, dark, id}) => {
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_vb9h3nl', 'template_mx1m4fd', e.target, '9_lPPIS5SYkaDOcWY')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+  
   const classes = useStyles();
   const [value, setValue] = useState('Say Hi')
 
@@ -32,20 +46,21 @@ const Contact = ({title, dark, id}) => {
             />
           </div>
           </div>
-          <form className={classes.form} noValidate autoCOmplete='off'>
-            <TextField label='Your name' />
-            <TextField label='Your e-mail' />
+          <form onSubmit={sendEmail} className={classes.form} noValidate autoCOmplete='off'>
+            <TextField type='text' name='user_name' label='Your name' />
+            <TextField type='email' name='user_email' label='Your e-mail' />
             {
               value === 'Get a Quote' ? (
                 <>
-                <TextField label='Needed Services' />
-                <TextField label='Estimated Budget' />
+                <TextField type='text' label='Needed Services' />
+                <TextField type='text' label='Estimated Budget' />
                 </>
               ) : null
             }
-            <TextField label='Write a message' />
+            <TextField type='text' name='user_message' label='Write a message' />
+            <Button type='submit' variant='contained'>Submit</Button>
           </form>
-          <Button variant='contained'>Submit</Button>
+          
         </Paper>
       </div>
     </div>
