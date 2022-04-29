@@ -108,7 +108,7 @@ const Technologies = () => {
     </Timeline>
   )
 }
-
+// Styles
 const useStyles = makeStyles((theme) => ({
     customlogo: {
           width: '25px'

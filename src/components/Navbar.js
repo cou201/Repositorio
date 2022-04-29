@@ -110,7 +110,7 @@ const Navbar = () => {
    </>
   )
 }
-
+// Styles
 const useStyles = makeStyles((theme) => ({
     root: {
         background: ' #68bd75 ',

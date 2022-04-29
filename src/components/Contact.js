@@ -51,7 +51,7 @@ const Contact = ({title, dark, id}) => {
     </div>
   )
 }
-
+// Styles
 const useStyles = makeStyles((theme) => ({
   section: {
     minHeight: '100vh',
