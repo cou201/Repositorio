@@ -1,4 +1,4 @@
-import {createMuiTheme, makeStyles, MuiThemeProvider} from '@material-ui/core';
+import {createTheme, makeStyles, MuiThemeProvider} from '@material-ui/core';
 import About from './components/About';
 import MyWork from './components/MyWork';
 import Navbar from './components/Navbar';
@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import { purple } from '@material-ui/core/colors';
 
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {main: purple[500]},
     secondary: {main: '#333'}
