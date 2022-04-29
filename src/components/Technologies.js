@@ -5,7 +5,7 @@ import css from '../images/css.png'
 import javascript from '../images/js.png'
 import react from '../images/react.png'
 import redux from '../images/redux.png'
-import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab'
+import { Timeline, TimelineConnector, TimelineContent,  TimelineItem, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab'
 import { Paper, Typography } from '@material-ui/core'
 import {makeStyles} from '@material-ui/core';
 import StartRating from './StartRating'
