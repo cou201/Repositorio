@@ -146,8 +146,8 @@ const useStyles = makeStyles((theme) => ({
       },
       '& a:hover': {
         cursor: 'pointer',
-        color: 'tomato',
-        borderBottom: '3px solid tomato'
+        color: ' #1460d5 ',
+        borderBottom: '3px solid  #2b4dbf '
       }
     },
     menubutton: {

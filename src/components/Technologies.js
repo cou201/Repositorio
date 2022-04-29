@@ -1,9 +1,13 @@
 import React from 'react'
 import cmas from '../images/Cmas.png'
+import java from '../images/java.gif'
+import csharp from '../images/csharp.png'
+import python from '../images/python.gif'
 import html from '../images/html.png'
 import css from '../images/css.png'
-import javascript from '../images/js.png'
-import react from '../images/react.png'
+import javascript from '../images/js.gif'
+import react from '../images/react.gif'
+import node from '../images/node.png'
 import redux from '../images/redux.png'
 import { Timeline, TimelineConnector, TimelineContent,  TimelineItem, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab'
 import { Paper, Typography } from '@material-ui/core'
@@ -15,37 +19,62 @@ const Technologies = () => {
 
   const skills = [
       {
-          year: '2010',
+          year: '2020/02',
           src: cmas,
           title: 'C++ Logic',
           stars: 4,
       },
       {
-        year: '2015',
+        year: '2020/04',
+          src: java,
+          title: 'Java Logic',
+          stars: 5,
+      },
+      {
+        year: '2020/06',
+          src: csharp,
+          title: 'C-Sharp Logic',
+          stars: 5,
+      },
+      {
+        year: '2020/08',
+          src: python,
+          title: 'Python Logic',
+          stars: 5,
+      },
+      {
+        year: '2021/02',
         src: html,
         title: 'HTML 5',
         stars: 5,
       },
       {
-        year: '2018',
+        year: '2021/04',
         src: css,
         title: 'CSS 3',
         stars: 5,
       },
       {
-        year: '2019',
+        year: '2021/06',
         src: javascript,
         title: 'JavaScript ES6',
         stars: 4,
       },
       {
-        year: '2020',
+        year: '2022/',
+        src: node,
+        title: 'Node js',
+        stars: 5,
+      },
+      {
+        year: '2022/',
         src: react,
         title: 'React js',
         stars: 5,
       },
+      
       {
-        year: '2020',
+        year: '2022/',
         src: redux,
         title: 'React Redux',
         stars: 4,
