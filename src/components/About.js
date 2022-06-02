@@ -14,27 +14,27 @@ const About = ({title, dark, id}) => {
           <CardMedia image={jc} className={classes.media} title='picture' />
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
-              text='Hi, I am Julio Mateus'
-              textStyle={{fontSize: '2rem', fontWeight: '700px', color: '#1460d5'}}
+              text='Hola!, Mi nombre es David estrada'
+              textStyle={{fontSize: '2rem', fontWeight: '700px', color: '#6f859b'}}
               startDelay={100}
               cursorColor='black'
               typeSpeed={100}   
             />
             <TypeWriterEffect
-              text='And I am an awesome Full Stack Developer'
+              text='Soy un desarrollador web full Stack'
               textStyle={{fontSize: '1.2rem', fontWeight: '500px'}}
               startDelay={2500}
               cursorColor='black'
               typeSpeed={100}   
             />
             <Typography variant='h6' color='textSecondary'>
-            Hard-working, ideal and responsible person, with experience as a Labor Technician in Systems Analysis and Programming, JavaScript, Python, Java, C# and in the area of ​​customer service, teamwork.
+            Vivo en Colombia, soy actualmente estudiante en el BootCamp "Henry", Mis conocimientos son en JavaScript, React, Redux, CCS, HTML, NODE.JS, no todo lo se pero si me gusta aprender y si algo no lo se me esforzarse en aprenderlo
             </Typography>
           </CardContent>
           <CardActions>
             <Button variant='contained' className={classes.pdfbutton}>
               <a href={pdf} download>
-                Download CV
+                Descarga mi HV
               </a>
             </Button>
           </CardActions>
@@ -49,8 +49,9 @@ const useStyles = makeStyles((theme) => ({
       minHeight: '100vh',
     },
     sectiondark: {
-        background: '#333',
+        background: '#020201', 
         color: '#fff',
+        
     },
     sectioncontent: {
       maxWidth: '80vw',
@@ -88,13 +89,13 @@ const useStyles = makeStyles((theme) => ({
         bottom: 10,
         right: '1rem',
       },
-      backgroundColor: '#1460d5',
+      backgroundColor: '#6f859b',
       padding: theme.spacing(3),
       '&:hover': {
         backgroundColor: '#fff',
       },
       '& a': {
-        color: '#fff',
+        color: '#000',
         textDecoration: 'none',
         fontWeight: 900,
       },

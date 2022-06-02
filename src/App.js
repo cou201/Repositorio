@@ -3,7 +3,7 @@ import About from './components/About';
 import MyWork from './components/MyWork';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
+//  import Contact from './components/Contact';
 import { purple } from '@material-ui/core/colors';
 
 
@@ -20,10 +20,10 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <div className={classes.root}>
       <Navbar />
-      <About title='About Me' id='about' dark={true}/>
-      <Skills title='My Coding Journey' id='skills' dark={false} />
-      <MyWork title='My Work' id='work' dark={true}/>
-      <Contact title='Get In Touch' id='contact' dark={false}/>
+      <About title='Sobre mi' id='about' dark={true}/>
+      <Skills title="Mis habilidades" id='skills' dark={false} />
+      <MyWork title='Mis proyectos' id='work' dark={true}/>
+       {/* <Contact title='' id='contact' dark={false}/>  */}
     </div>
     </MuiThemeProvider>
     

@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, makeStyles, List, IconButton, Drawer, Divider, ListItem, ListItemIcon } from '@material-ui/core'
 import {React, useState} from 'react'
-import logo from '../images/jc.gif'
-import {Link, animateScroll as scroll} from 'react-scroll'
+
+import {Link} from 'react-scroll'
 import InfoTwoToneIcon from '@material-ui/icons/InfoTwoTone';
 import  EmojiObjectsTwoToneIcon  from '@material-ui/icons/EmojiObjectsTwoTone';
 import  WorkTwoToneIcon  from '@material-ui/icons/WorkTwoTone';
@@ -17,41 +17,33 @@ const Navbar = () => {
   const links = [
     {
       id: 'about',
-      text: 'About me',
+      text: 'Sobre mi',
       icon: <InfoTwoToneIcon fontSize='large' />
     },
     {
       id: 'skills',
-      text: 'Skills',
+      text: "Habilidades",
       icon: <EmojiObjectsTwoToneIcon fontSize='large' className={classes.light} />
     },
     {
       id: 'work',
-      text: 'My Work',
+      text: 'Mis trabajos',
       icon: <WorkTwoToneIcon fontSize='large' />
     },
     {
       id: 'contact',
-      text: 'Get in touch',
+      text: 'Contactame',
       icon: <ContactMailTwoToneIcon fontSize='large' />
     },
   ]
 
-  const scrollToTop = () => {
-    scroll.scrollToTop()
-  }
 
 
   return (
     <>
       <AppBar position='sticky' className={classes.root}>
           <Toolbar className={classes.toolbar}>
-              <img
-                onClick={scrollToTop} 
-                src={logo} 
-                className={classes.logo} 
-                alt='Logo' 
-              />
+             
               <List className={classes.menu}>
                 {
                   links.map(({id, text}, index) => (
@@ -113,7 +105,7 @@ const Navbar = () => {
 // Styles
 const useStyles = makeStyles((theme) => ({
     root: {
-        background: ' #68bd75 ',
+        background: ' #fff',
         top: 0,
         left: 0,
         right: 0,

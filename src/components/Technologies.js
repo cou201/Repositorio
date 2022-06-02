@@ -1,8 +1,4 @@
 import React from 'react'
-import cmas from '../images/Cmas.png'
-import java from '../images/java.gif'
-import csharp from '../images/csharp.png'
-import python from '../images/python.gif'
 import html from '../images/html.png'
 import css from '../images/css.png'
 import javascript from '../images/js.gif'
@@ -18,44 +14,21 @@ const Technologies = () => {
   const classes = useStyles();
 
   const skills = [
+    
       {
-          year: '2020/02',
-          src: cmas,
-          title: 'C++ Logic',
-          stars: 4,
-      },
-      {
-        year: '2020/04',
-          src: java,
-          title: 'Java Logic',
-          stars: 5,
-      },
-      {
-        year: '2020/06',
-          src: csharp,
-          title: 'C-Sharp Logic',
-          stars: 5,
-      },
-      {
-        year: '2020/08',
-          src: python,
-          title: 'Python Logic',
-          stars: 5,
-      },
-      {
-        year: '2021/02',
+        year: '2022/',
         src: html,
         title: 'HTML 5',
-        stars: 5,
+        stars: 4,
       },
       {
-        year: '2021/04',
+        year: '2022/',
         src: css,
         title: 'CSS 3',
-        stars: 5,
+        stars: 4,
       },
       {
-        year: '2021/06',
+        year: '2022/',
         src: javascript,
         title: 'JavaScript ES6',
         stars: 4,
@@ -64,13 +37,13 @@ const Technologies = () => {
         year: '2022/',
         src: node,
         title: 'Node js',
-        stars: 5,
+        stars: 3,
       },
       {
         year: '2022/',
         src: react,
         title: 'React js',
-        stars: 5,
+        stars: 4,
       },
       
       {

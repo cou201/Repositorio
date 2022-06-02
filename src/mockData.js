@@ -1,19 +1,13 @@
-import rickandmortywiki from './images/rickandmortywiki.jpeg';
-import uberclone from './images/uberclone.jpg';
+ import rickandmortywiki from './images/rickandmortywiki.jpeg';
 import weatherapp from './images/weatherapp.jpg'
-import ecommerce from './images/ecommerce.jpg'
-import netflixclone from './images/netflixclone.jpg'
-
+import spotify from './images/spotify.png';
+import peliculas from "./images/Peliculas.jpg";
+import Pagina from "./images/Sin.png";
 
 const mockData = [
     {
         title: 'Rick & Morty',
-        image: rickandmortywiki,
-        link: 'https://rick-and-morty-app-jcmateus.netlify.app',
-    },
-    {
-        title: 'Uber Clone',
-        image: uberclone,
+         image: rickandmortywiki,
         link: 'https://rick-and-morty-app-jcmateus.netlify.app',
     },
     {
@@ -22,15 +16,19 @@ const mockData = [
         link: 'https://weather-search-react.netlify.app',
     },
     {
-        title: 'Ecommerce',
-        image: ecommerce,
-        link: 'https://rick-and-morty-app-jcmateus.netlify.app',
+      title: "Spotify image",
+      image: spotify,
+      link: "https://stellar-truffle-6ff2b5.netlify.app"
     },
     {
-        title: 'Netflix Clone',
-        image: netflixclone,
-        link: 'https://rick-and-morty-app-jcmateus.netlify.app',
-    },
+      title: "Portafolio de peliculas",
+      image: peliculas,
+      link: "https://regal-moonbeam-94613e.netlify.app"
+    },{
+      title: "Pagina Prueba de vista",
+      image: Pagina,
+      link: "https://guileless-custard-27db64.netlify.app"
+    }
 ];
 
 

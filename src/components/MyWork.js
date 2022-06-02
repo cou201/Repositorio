@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: '100vh',
   },
   sectiondark: {
-      background: '#333',
+      background: '#020201',
       color: '#fff',
   },
   sectioncontent: {
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 345,
     minHeight: 275,
     margin: theme.spacing(3),
-
+    border: 20
   },
   caratula: {
     height: 0,
