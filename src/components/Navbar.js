@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 import InfoTwoToneIcon from '@material-ui/icons/InfoTwoTone';
 import  EmojiObjectsTwoToneIcon  from '@material-ui/icons/EmojiObjectsTwoTone';
 import  WorkTwoToneIcon  from '@material-ui/icons/WorkTwoTone';
-import  ContactMailTwoToneIcon  from '@material-ui/icons/ContactMailTwoTone';
+// import  ContactMailTwoToneIcon  from '@material-ui/icons/ContactMailTwoTone';
 import WidgetsIcon from '@material-ui/icons/Widgets'
 import CancelIcon from '@material-ui/icons/Cancel'
 
@@ -29,11 +29,6 @@ const Navbar = () => {
       id: 'work',
       text: 'Mis trabajos',
       icon: <WorkTwoToneIcon fontSize='large' />
-    },
-    {
-      id: 'contact',
-      text: 'Contactame',
-      icon: <ContactMailTwoToneIcon fontSize='large' />
     },
   ]
 

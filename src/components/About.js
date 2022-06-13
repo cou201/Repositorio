@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     sectiondark: {
         background: '#020201', 
         color: '#fff',
-        
+      
     },
     sectioncontent: {
       maxWidth: '80vw',

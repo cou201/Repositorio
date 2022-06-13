@@ -23,7 +23,7 @@ function App() {
       <About title='Sobre mi' id='about' dark={true}/>
       <Skills title="Mis habilidades" id='skills' dark={false} />
       <MyWork title='Mis proyectos' id='work' dark={true}/>
-       {/* <Contact title='' id='contact' dark={false}/>  */}
+    
     </div>
     </MuiThemeProvider>
     
