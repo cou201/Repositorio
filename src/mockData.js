@@ -1,8 +1,10 @@
- import rickandmortywiki from './images/rickandmortywiki.jpeg';
+import rickandmortywiki from './images/rickandmortywiki.jpeg';
 import weatherapp from './images/weatherapp.jpg'
 import spotify from './images/spotify.png';
 import peliculas from "./images/Peliculas.jpg";
 import Pagina from "./images/Sin.png";
+import RedSocial from "./images/RedSocial.png";
+import commerce from "./images/Ecommerce.png";
 
 const mockData = [
     {
@@ -16,11 +18,6 @@ const mockData = [
         link: 'https://weather-search-react.netlify.app',
     },
     {
-      title: "Spotify image",
-      image: spotify,
-      link: "https://stellar-truffle-6ff2b5.netlify.app"
-    },
-    {
       title: "Portafolio de peliculas",
       image: peliculas,
       link: "https://regal-moonbeam-94613e.netlify.app"
@@ -28,7 +25,22 @@ const mockData = [
       title: "Pagina Prueba de vista",
       image: Pagina,
       link: "https://guileless-custard-27db64.netlify.app"
-    }
+    },
+    {
+      title: "RedSocial",
+      image: RedSocial,
+      link: "https://social-media-eight-alpha.vercel.app"
+    },
+    {
+      title: "E-commerce",
+      image:  commerce,
+      link: "https://e-commerce-liard.vercel.app/"
+    },
+    {
+      title: "Spotify image",
+      image: spotify,
+      link: "https://stellar-truffle-6ff2b5.netlify.app"
+    },
 ];
 
 
