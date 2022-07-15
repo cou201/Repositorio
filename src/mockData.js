@@ -5,6 +5,7 @@ import peliculas from "./images/Peliculas.jpg";
 import Pagina from "./images/Sin.png";
 import RedSocial from "./images/RedSocial.png";
 import commerce from "./images/commerce.png";
+import casas from "./images/Casas.png"
 
 const mockData = [
   {
@@ -16,6 +17,11 @@ const mockData = [
     title: "E-commerce",
     image:  commerce,
     link: "https://e-commerce-liard.vercel.app/"
+  },
+  {
+    title: "Casas Vista",
+    image: casas,
+    link: "https://casas-cou201.vercel.app/"
   },
     {
         title: 'Rick & Morty',
