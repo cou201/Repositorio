@@ -6,6 +6,7 @@ import Pagina from "./images/Sin.png";
 import RedSocial from "./images/RedSocial.png";
 import commerce from "./images/commerce.png";
 import casas from "./images/Casas.png"
+import pizza from "./images/pizza.jpg"
 
 const mockData = [
   {
@@ -23,6 +24,7 @@ const mockData = [
     image: casas,
     link: "https://casas-cou201.vercel.app/"
   },
+  
     {
         title: 'Rick & Morty',
          image: rickandmortywiki,
@@ -32,6 +34,11 @@ const mockData = [
       title: "Portafolio de peliculas",
       image: peliculas,
       link: "https://regal-moonbeam-94613e.netlify.app"
+    },
+      {
+      title: "Pizzeria",
+      image: pizza,
+      link: "https://restaurant-olive-iota.vercel.app"
     },
     {
         title: 'weather app',
@@ -48,6 +55,7 @@ const mockData = [
       image: spotify,
       link: "https://stellar-truffle-6ff2b5.netlify.app"
     },
+    
 ];
 
 
