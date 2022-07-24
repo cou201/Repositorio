@@ -7,6 +7,7 @@ import RedSocial from "./images/RedSocial.png";
 import commerce from "./images/commerce.png";
 import casas from "./images/Casas.png"
 import pizza from "./images/pizza.jpg"
+import animals from "./images/Animals.jpg"
 
 const mockData = [
   {
@@ -29,6 +30,11 @@ const mockData = [
         title: 'Rick & Morty',
          image: rickandmortywiki,
         link: 'https://rick-and-morty-app-jcmateus.netlify.app',
+    },
+    {
+      title: "Animals",
+      image: animals,
+      link: "https://animalscou.vercel.app/"
     },
     {
       title: "Portafolio de peliculas",
